@@ -28,3 +28,5 @@ class Author:
         if row:
             return cls(row['name'], row['id'])
         return None
+    
+    
